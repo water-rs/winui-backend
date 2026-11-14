@@ -124,22 +124,22 @@ suiteki = { git = "https://github.com/water-rs/suiteki", rev = "7cf17bdba0e978d3
 # Migrated framework crates track the waterui `dev` branch, whose patch table
 # this one mirrors; `Cargo.lock` records the exact commit. Drop these entries
 # once a release has the migration.
-waterui = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-backend-core = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-controls = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-core = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-form = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-graphics = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-icon = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-internal = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-layout = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-locale = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-macros = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-navigation = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-shape = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-text = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-url = { git = "https://github.com/water-rs/waterui", branch = "dev" }
-waterui-video = { git = "https://github.com/water-rs/waterui", branch = "dev" }
+waterui = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-backend-core = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-controls = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-core = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-form = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-graphics = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-icon = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-internal = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-layout = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-locale = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-macros = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-navigation = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-shape = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-text = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-url = { git = "https://github.com/water-rs/waterui", branch = "main" }
+waterui-video = { git = "https://github.com/water-rs/waterui", branch = "main" }
 waterkit-build = { git = "https://github.com/water-rs/waterkit", branch = "main" }
 waterkit-clipboard = { git = "https://github.com/water-rs/waterkit", branch = "main" }
 waterkit-dialog = { git = "https://github.com/water-rs/waterkit", branch = "main" }
