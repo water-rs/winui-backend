@@ -16,7 +16,7 @@ use waterui::accessibility::{
     AccessibilityChildren, AccessibilityHidden, AccessibilityIdentifier, AccessibilityLabel,
     AccessibilityRole, AccessibilityState, AccessibilityStateSignal,
 };
-use waterui::background::{Background, Material, MaterialBackground};
+use waterui::background::{Material, MaterialBackground};
 use waterui::border::Border;
 use waterui::component::focus::Focused;
 use waterui::cursor::{Cursor, CursorStyle};
@@ -73,7 +73,6 @@ pub(crate) fn register(dispatcher: &mut ViewDispatcher<(), RenderContext, UIElem
     register_gesture_observer(dispatcher);
     register_context_menu(dispatcher);
     register_drag_drop(dispatcher);
-    register_background(dispatcher);
     register_accessibility(dispatcher);
     register_passthroughs(dispatcher);
 }
@@ -1386,12 +1385,6 @@ fn register_drag_drop(dispatcher: &mut ViewDispatcher<(), RenderContext, UIEleme
             element
         },
     );
-}
-
-/// `Metadata<Background>` — passthrough; real backgrounds are composed by
-/// `BackgroundView` (`FixedContainer` + a `Background` view).
-fn register_background(dispatcher: &mut ViewDispatcher<(), RenderContext, UIElement>) {
-    WinUiRenderer::register_passthrough_metadata::<Background>(dispatcher);
 }
 
 /// `IgnorableMetadata<MaterialBackground>` — an `AcrylicBrush` behind the

@@ -184,7 +184,7 @@ fn passthrough_content(view: &AnyView) -> Option<&AnyView> {
         AccessibilityChildren, AccessibilityHidden, AccessibilityLabel, AccessibilityRole,
         AccessibilityState, AccessibilityStateSignal,
     };
-    use waterui::background::{Background, MaterialBackground};
+    use waterui::background::MaterialBackground;
     use waterui::border::Border;
     use waterui::component::focus::Focused;
     use waterui::cursor::Cursor;
@@ -243,7 +243,6 @@ fn passthrough_content(view: &AnyView) -> Option<&AnyView> {
         ResolvedContextMenu,
         Draggable,
         DropDestination,
-        Background,
         NavigationTransitionSource,
         NavigationTransitionDestination
     );
